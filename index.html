@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,600,800|PT+Sans:400,700|Playfair+Display:700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="./plugins/swiper/swiper.css">
+    <link rel="stylesheet" href="./style/normalize.css">
+    <link rel="stylesheet" href="./style/grid.css">
+    <link rel="stylesheet" href="./style/utilities.css">
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+    <div class="menu">
+        <div class="menu__text">
+            <p>меню</p>
+        </div>
+        <div class="menu__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 20" width="36px">
+                <path fill="#000" d="M25 2c0 1.105-.928 2-2.073 2H2.073C.928 4 0 3.105 0 2s.928-2 2.073-2h20.855C24.072 0 25 .895 25 2zM25 10c0 1.105-.928 2-2.073 2H2.073C.928 12 0 11.105 0 10s.928-2 2.073-2h20.855C24.072 8 25 8.895 25 10zM25 18c0 1.105-.928 2-2.073 2H2.073C.928 20 0 19.105 0 18s.928-2 2.073-2h20.855c1.144 0 2.072.895 2.072 2z" />
+            </svg>
+        </div>
+    </div>
+    <div class="side-menu">
+        <ul class="side-menu__list">
+            <li class="side-menu__item"><a href="javascript:void(0)"><i class="fab fa-facebook-f"></i></a></li>
+            <li class="side-menu__item"><a href="javascript:void(0)"><i class="fab fa-instagram"></i></a></li>
+            <li class="side-menu__item"><a href="javascript:void(0)"><i class="fab fa-twitter"></i></a></li>
+        </ul>
+        <div class="side-menu__next">
+            <p>дальше</p>
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="269px">
+                <path fill-rule="evenodd" fill="rgb(0, 0, 0)" d="M10.682,263.443 L17.499,263.445 L8.997,268.500 L0.499,263.439 L7.318,263.441 L7.319,261.000 L7.000,261.000 L7.000,-0.000 L11.000,-0.000 L11.000,261.000 L10.683,261.000 L10.682,263.443 Z" />
+            </svg>
+        </div>
+    </div>
+    <div class="wrapper wrapper--header">
+        <div class="container">
+            <div class="header">
+                <div class="row">
+                    <div class="col col-6">
+                        <h1 class="header__main--left">eunice</h1>
+                    </div>
+                    <div class="offset-1"></div>
+                    <div class="col col-5">
+                        <h1 class="header__main--right">dance</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <h2 class="header__sub">Приходи танцевать с нами!
+                            <br>
+                            Мы ждём именно тебя!
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper wrapper--about services">
+        <div class="container">
+            <div class="row">
+                <div class="offset-1"></div>
+                <div class="col">
+
+                    <ul class="services__list">
+                        <li class="services__item">
+                            8 различных направлений
+                        </li>
+                        <li class="services__item">
+                            групповые и персональные тренировки
+                        </li>
+                        <li class="services__item">
+                            для детей и взрослых
+                        </li>
+                        <li class="services__item">
+                            хобби-класс и подготовка к чемпионатам
+                        </li>
+                        <li class="services__item">
+                            просторный и удобный зал
+                        </li>
+                        <li class="services__item">
+                            профессиональные тренеры
+                        </li>
+                        <li class="services__item">
+                            один абонемент на все классы
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="services__invite">
+                        <p>Приглашаем на первую тренировку <span>бесплатно</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="offset-8"></div>
+                <div class="col">
+                    <div class="services__link">
+                        <a href="javascript:void(9)" class="btn btn--services">записаться</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper--trainers trainers">
+        <div class="container">
+            <div class="row">
+                <div class="offset-8"></div>
+                <div class="col">
+                    <p class="trainers__header">наши тренеры</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="offset-3"></div>
+                <div class="col">
+                    <div class="trainers__slider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <h2>Юфемия Алдунгарова</h2>
+                                <h3>восточные танцы, контемпорари, стретчинг</h3>
+                                <p>Основатель и руководитель Eunice dance studio
+                                    Обладательница Кубка Мира по фольклорному
+                                    и шоу bellydance 2018 в Корее
+                                    Двукратная чемпионка Мира по версии IDO
+                                    Чемпионка Европы 2018, Чехия
+                                    Многократная чемпонка Украины
+                                </p>
+                            </div>
+                            <div class="swiper-slide">
+                                <h2>Юфемия Алдунгарова</h2>
+                                <h3>восточные танцы, контемпорари, стретчинг</h3>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                    Molestiae, reiciendis! Quia commodi voluptatem sapiente unde molestias aspernatur!
+                                    Minus, eligendi doloribus.
+                                </p>
+                            </div>
+                            <div class="swiper-slide">
+                                <h2>Юфемия Алдунгарова</h2>
+                                <h3>восточные танцы, контемпорари, стретчинг</h3>
+                                <p>Основатель и руководитель Eunice dance studio
+                                    Обладательница Кубка Мира по фольклорному
+                                    и шоу bellydance 2018 в Корее
+                                    Двукратная чемпионка Мира по версии IDO
+                                    Чемпионка Европы 2018, Чехия
+                                    Многократная чемпонка Украины
+                                </p>
+                            </div>
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination" id="trainers__pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper__styles">
+        <div class="container">
+            <div class="row">
+                <div class="offset-8"></div>
+                <div class="col">
+                    <p class="styles__header">направления</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <ul class="styles__list">
+                        <li class="styles__item styles__item--active">восточные танцы</li>
+                        <li class="styles__item">контемпорари</li>
+                        <li class="styles__item">хип-хоп</li>
+                        <li class="styles__item">тверк</li>
+                        <li class="styles__item">стриппластика</li>
+                        <li class="styles__item">джаз-фанк</li>
+                        <li class="styles__item">детская ритмика</li>
+                        <li class="styles__item">лайт-фитнес</li>
+                        <li class="styles__item">стретчинг</li>
+                    </ul>
+                    <p class="styles__text">
+                        Восточные танцы- это волшебные мотивы разнообразных музыкальных инструментов, яркие сверкающие
+                        наряды; это пластика, грация и женственность вместе с огромной силой духа и уверенностью в
+                        себе.
+                        <br>
+                        <br>
+                        Наши ученики разных возрастов, любители и профессионалы,но всех их обьеденяет
+                        <br>
+                        ЛЮБОВЬ к танцам!
+                    </p>
+                </div>
+                <div class="col">
+                    <img src="./img/style.jpg" alt="" class="styles__img">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper wrapper--schedule schedule">
+        <div class="container">
+            <div class="row">
+                <div class="offset-8"></div>
+                <div class="col">
+                    <h2 class="schedule__header">расписание</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-3">
+                    <h2 class="schedule__day">сегодня</h2>
+                </div>
+                <div class="col">
+                    <h3 class="schedule__date">10 ноября, суббота</h3>
+                    <ul class="schedule__list">
+                        <li class="li schedule__item"><span>13.00 </span>стриппластика</li>
+                        <li class="li schedule__item"><span>14.00 </span>стретчинг</li>
+                        <li class="li schedule__item"><span>15.00 </span>тверк</li>
+                        <li class="li schedule__item"><span>16.00 </span>хип-хоп</li>
+                        <li class="li schedule__item"><span>17.00 </span>детская ритмика</li>
+                        <li class="li schedule__item"><span>18.00 </span> джаз-фанк</li>
+                        <li class="li schedule__item"><span>19.00 </span>восточные танцы</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="offset-3"></div>
+                <div class="col">
+                    <div class="schedule__link">
+                        <a href="javascript:void(9)" class="btn btn--schedule">полное расписание</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper wrapper--videos">
+        <div class="container">
+            <div class="row">
+                <div class="offset-3"></div>
+                <div class="col col-4">
+                    <h2 class="videos__header">видеогалерея</h2>
+                </div>
+            </div>
+        </div>
+        <div class="container--fluid">
+            <div class="row no-gutters">
+                <div class="col">
+                    <div class="video__slider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide video__slider-1"></div>
+                            <div class="swiper-slide video__slider-2"></div>
+                            <div class="swiper-slide video__slider-3"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h3 class="videos__subheader">всё во вселенной имеет ритм.
+                        всё танцует.</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper wrapper--form">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="form__header">
+                        <h2>Мы вышлем всю подробную информацию на почту или перезвоним
+                            <br>
+                            по указанному номеру телефона для уточнения деталей.</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <form action="#" method="GET" id="form">
+                        <div class="form">
+                            <div class="form__input">
+                                <span class="inp--relative"><input type="text" name="name" id="name" required><label
+                                        for="name" class="inp inp--name">ИМЯ</label></span>
+                                <span class="inp--relative"><input type="text" name="email" id="email" type="email"><label
+                                        for="email" class="inp inp--email">E-MAIL</label></span>
+                                <span class="inp--relative"><input type="text" name="phone" id="phone" type="phone"><label
+                                        for="phone" class="inp inp--phone">ТЕЛЕФОН</label></span>
+                            </div>
+                            <div class="form__submit">
+                                <input type="submit" class="btn btn--form" value="отправить">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper wrapper--footer">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="contact">
+                        <p>
+                            <span><br> контакты:</span>
+                            <br> г.Николаев, ул. Чигрина, 234,
+                            <br> 4 этаж, офис 420
+                            <br> +380731546272
+                            <br> +380957658781
+                            <br> yufemia@gmail.com
+                        </p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d10893.808128960638!2d31.994796349999994!3d46.95280795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sua!4v1542449018081"
+                            width="717" height="435" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="subscribe">
+                        <p>
+                            подпишись
+                            <br>
+                            на наши
+                            <br>
+                            обновления
+                        </p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="subscribe__button">
+                        <a href="javascript:void(0)" class="btn btn--subscribe">подписаться</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <svg class="shape shape-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="682px"
+        height="601px">
+        <path fill-rule="evenodd" stroke="rgb(242, 18, 120)" stroke-width="50px" stroke-linecap="butt" stroke-linejoin="miter"
+            fill="none" d="M328.500,25.000 C496.118,25.000 632.000,142.749 632.000,288.000 C632.000,433.251 496.118,551.000 328.500,551.000 C160.882,551.000 25.000,433.251 25.000,288.000 C25.000,142.749 160.882,25.000 328.500,25.000 Z" />
+    </svg>
+    <svg class="shape shape-2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="348px"
+        height="330px">
+        <path fill-rule="evenodd" stroke="rgb(242, 18, 120)" stroke-width="20px" stroke-linecap="butt" stroke-linejoin="miter"
+            fill="none" d="M116.681,10.697 L327.200,160.034 L221.319,309.293 L10.800,159.956 L116.681,10.697 Z" />
+    </svg>
+    <svg class="shape shape-3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="195px"
+        height="142px">
+        <path fill-rule="evenodd" stroke="rgb(83, 208, 200)" stroke-width="20px" stroke-linecap="butt" stroke-linejoin="miter"
+            fill="none" d="M92.500,10.000 C138.063,10.000 175.000,35.072 175.000,66.000 C175.000,96.928 138.063,122.000 92.500,122.000 C46.936,122.000 10.000,96.928 10.000,66.000 C10.000,35.072 46.936,10.000 92.500,10.000 Z" />
+    </svg>
+    <svg class="shape shape-4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="183px"
+        height="211px">
+        <path fill-rule="evenodd" stroke="rgb(26, 228, 222)" stroke-width="12px" stroke-linecap="butt" stroke-linejoin="miter"
+            fill="none" d="M88.500,6.000 C134.063,6.000 171.000,49.204 171.000,102.500 C171.000,155.795 134.063,199.000 88.500,199.000 C42.936,199.000 6.000,155.795 6.000,102.500 C6.000,49.204 42.936,6.000 88.500,6.000 Z" />
+    </svg>
+    <svg class="shape shape-5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="499px"
+        height="319px">
+        <path fill-rule="evenodd" stroke="rgb(251, 240, 28)" stroke-width="20px" stroke-linecap="butt" stroke-linejoin="miter"
+            fill="none" d="M10.015,9.991 L478.999,200.495 L227.869,299.012 L10.015,9.991 Z" />
+    </svg>
+    <svg class="shape shape-6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="172px"
+        height="55px">
+        <path fill-rule="evenodd" stroke="rgb(255, 255, 255)" stroke-width="2px" stroke-linecap="butt" stroke-linejoin="miter"
+            fill="rgb(255, 255, 255)" d="M15.000,25.000 L15.000,15.000 L142.000,15.000 L142.000,25.000 L15.000,25.000 Z" />
+    </svg>
+    <svg class="shape shape-7" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="154px"
+        height="21px">
+        <path fill-rule="evenodd" stroke="rgb(252, 11, 129)" stroke-width="1px" stroke-linecap="butt" stroke-linejoin="miter"
+            fill="rgb(252, 11, 129)" d="M5.000,11.000 L5.000,5.000 L144.000,5.000 L144.000,11.000 L5.000,11.000 Z" />
+    </svg>
+    <svg class="shape shape-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="229.5px"
+        height="266.5px">
+        <path fill-rule="evenodd" stroke="rgb(242, 18, 120)" stroke-width="13px" stroke-linecap="butt" stroke-linejoin="miter"
+            fill="none" d="M76.772,6.508 L216.508,130.041 L146.227,253.510 L6.492,129.976 L76.772,6.508 Z" />
+    </svg>
+    <svg class="shape shape-9" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="313px"
+        height="282px">
+        <path fill-rule="evenodd" stroke="rgb(242, 18, 120)" stroke-width="6px" stroke-linecap="butt" stroke-linejoin="miter"
+            fill="none" d="M306.804,3.287 L55.100,275.085 L3.745,85.156 L306.804,3.287 Z" />
+    </svg>
+    <svg class="shape shape-10" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="130.5px"
+        height="146.5px">
+        <path fill-rule="evenodd" stroke="rgb(83, 208, 200)" stroke-width="15px" stroke-linecap="butt" stroke-linejoin="miter"
+            fill="none" d="M30.583,7.508 L115.513,58.828 L92.444,131.502 L7.514,80.181 L30.583,7.508 Z" />
+    </svg>
+    <svg class="shape shape-11" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="356px"
+        height="369px">
+        <path fill-rule="evenodd" stroke="rgb(242, 18, 120)" stroke-width="40px" stroke-linecap="butt" stroke-linejoin="miter"
+            fill="none" d="M168.000,20.000 C249.738,20.000 316.000,89.172 316.000,174.500 C316.000,259.828 249.738,329.000 168.000,329.000 C86.262,329.000 20.000,259.828 20.000,174.500 C20.000,89.172 86.262,20.000 168.000,20.000 Z" />
+    </svg>
+    <svg class="shape shape-12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="397px"
+        height="94px">
+        <path fill-rule="evenodd" fill="rgb(255, 255, 0)" d="M329.552,50.900 C294.817,68.844 265.367,68.708 231.063,50.446 C208.695,38.538 189.476,38.449 166.828,50.150 C132.412,67.919 104.523,67.790 70.545,49.705 C47.926,37.659 32.552,37.588 9.629,49.424 L0.344,40.623 C28.195,26.244 51.455,25.764 80.047,40.991 C106.999,55.341 127.000,57.120 157.543,41.348 C186.498,26.387 213.243,27.189 240.565,41.731 C268.613,56.667 290.752,57.349 320.267,42.099 C349.239,27.137 368.059,27.224 396.650,42.451 L387.148,51.166 C364.161,38.919 352.848,38.866 329.552,50.900 ZM329.910,21.191 C295.175,39.135 265.725,38.999 231.421,20.737 C209.052,8.822 189.834,8.733 167.186,20.441 C132.770,38.211 104.881,38.082 70.903,19.997 C48.284,7.950 32.910,7.880 9.987,19.716 L0.702,10.915 C28.553,-3.472 51.813,-3.945 80.405,11.283 C107.357,25.632 127.358,27.412 157.901,11.640 C186.856,-3.322 213.601,-2.519 240.923,12.023 C268.971,26.958 291.110,27.640 320.625,12.390 C349.597,-2.571 368.417,-2.485 397.008,12.743 L387.506,21.457 C364.519,9.210 353.206,9.158 329.910,21.191 ZM79.689,70.700 C106.641,85.057 126.642,86.829 157.185,71.057 C186.140,56.095 212.885,56.898 240.207,71.440 C268.255,86.382 290.394,87.065 319.909,71.808 C348.881,56.846 367.701,56.932 396.292,72.160 L386.790,80.874 C363.803,68.635 352.490,68.583 329.194,80.608 C294.459,98.552 265.009,98.424 230.705,80.154 C208.337,68.246 189.118,68.158 166.470,79.858 C132.054,97.635 104.165,97.507 70.187,79.414 C47.568,67.367 32.194,67.297 9.271,79.133 L-0.014,70.332 C27.837,55.953 51.097,55.472 79.689,70.700 Z" />
+    </svg>
+    <svg class="shape shape-13" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="152px"
+        height="136px">
+        <path fill-rule="evenodd" stroke="rgb(242, 18, 120)" stroke-width="10px" stroke-linecap="butt" stroke-linejoin="miter"
+            fill="none" d="M79.039,4.992 L142.013,83.410 L67.971,125.999 L4.998,47.580 L79.039,4.992 Z" />
+    </svg>
+    <svg class="shape shape-14" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="306px"
+        height="295px">
+        <path fill-rule="evenodd" stroke="rgb(242, 18, 120)" stroke-width="18px" stroke-linecap="butt" stroke-linejoin="miter"
+            fill="none" d="M287.972,75.303 L170.558,276.758 L9.383,211.343 L126.797,9.888 L287.972,75.303 Z" />
+    </svg>
+    <svg class="shape shape-15" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1707.5px"
+        height="414.5px">
+        <path fill-rule="evenodd" stroke="rgb(252, 234, 136)" stroke-width="15px" stroke-linecap="butt" stroke-linejoin="miter"
+            fill="none" d="M7.500,7.500 L1692.500,7.500 L1692.500,399.500 L7.500,399.500 L7.500,7.500 Z" />
+    </svg>
+    <svg class="shape shape-16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="210.5px"
+        height="216.5px">
+        <path fill-rule="evenodd" stroke="rgb(242, 18, 120)" stroke-width="13px" stroke-linecap="butt" stroke-linejoin="miter"
+            fill="none" d="M70.660,7.280 L197.507,105.264 L133.709,203.197 L6.861,105.212 L70.660,7.280 Z" />
+    </svg>
+    <svg class="shape shape-17" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="322.5px"
+        height="311.5px">
+        <path fill-rule="evenodd" stroke="rgb(242, 18, 120)" stroke-width="13px" stroke-linecap="butt" stroke-linejoin="miter"
+            fill="none" d="M28.777,6.495 L309.513,89.250 L287.244,297.520 L6.508,214.765 L28.777,6.495 Z" />
+    </svg>
+    <svg class="shape shape-18" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="211px"
+        height="271px">
+        <path fill-rule="evenodd" fill="rgb(252, 11, 129)" d="M-0.000,-0.000 L211.000,-0.000 L211.000,271.000 L-0.000,271.000 L-0.000,-0.000 Z" />
+    </svg>
+    <svg class="shape shape-19" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="257px"
+        height="222px">
+        <path fill-rule="evenodd" stroke="rgb(26, 228, 222)" stroke-width="12px" stroke-linecap="butt" stroke-linejoin="miter"
+            fill="none" d="M125.500,6.000 C191.498,6.000 245.000,51.667 245.000,108.000 C245.000,164.333 191.498,210.000 125.500,210.000 C59.502,210.000 6.000,164.333 6.000,108.000 C6.000,51.667 59.502,6.000 125.500,6.000 Z" />
+    </svg>
+    <svg class="shape shape-20" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200.5px"
+        height="262.5px">
+        <path fill-rule="evenodd" stroke="rgb(242, 18, 120)" stroke-width="13px" stroke-linecap="butt" stroke-linejoin="miter"
+            fill="none" d="M55.094,7.017 L187.250,102.529 L138.854,249.342 L6.697,153.831 L55.094,7.017 Z" />
+    </svg>
+    <svg class="shape shape-21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="602px"
+        height="753px">
+        <path fill-rule="evenodd" fill="rgb(22, 226, 235)" d="M-0.000,-0.000 L602.000,-0.000 L602.000,753.000 L-0.000,753.000 L-0.000,-0.000 Z" />
+    </svg>
+    <svg class="shape shape-22" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="887px"
+        height="98px">
+        <path fill-rule="evenodd" stroke="rgb(255, 236, 137)" stroke-width="8px" stroke-linecap="butt" stroke-linejoin="miter"
+            fill="none" d="M4.000,4.000 L879.000,4.000 L879.000,90.000 L4.000,90.000 L4.000,4.000 Z" />
+    </svg>
+    <svg class="shape shape-23" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="272px"
+        height="276px">
+        <path fill-rule="evenodd" stroke="rgb(242, 18, 120)" stroke-width="16px" stroke-linecap="butt" stroke-linejoin="miter"
+            fill="none" d="M102.977,7.986 L255.989,121.127 L161.023,260.001 L8.012,146.860 L102.977,7.986 Z" />
+    </svg>
+    <svg class="shape shape-24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="403.5px"
+        height="297.5px">
+        <path fill-rule="evenodd" stroke="rgb(242, 18, 120)" stroke-width="13px" stroke-linecap="butt" stroke-linejoin="miter"
+            fill="none" d="M145.364,6.496 L390.486,73.445 L251.631,284.492 L6.509,217.543 L145.364,6.496 Z" />
+    </svg>
+    <svg class="shape shape-25" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="261px"
+        height="230px">
+        <path fill-rule="evenodd" stroke="rgb(26, 228, 222)" stroke-width="12px" stroke-linecap="butt" stroke-linejoin="miter"
+            fill="none" d="M127.500,6.000 C194.603,6.000 249.000,53.457 249.000,112.000 C249.000,170.542 194.603,218.000 127.500,218.000 C60.397,218.000 6.000,170.542 6.000,112.000 C6.000,53.457 60.397,6.000 127.500,6.000 Z" />
+    </svg>
+    <svg class="shape shape-26" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="397px"
+        height="94px">
+        <path fill-rule="evenodd" fill="rgb(255, 255, 0)" d="M329.552,50.900 C294.817,68.844 265.367,68.708 231.063,50.445 C208.694,38.538 189.476,38.449 166.828,50.149 C132.412,67.919 104.523,67.791 70.544,49.706 C47.926,37.659 32.552,37.588 9.630,49.424 L0.344,40.623 C28.195,26.244 51.455,25.763 80.047,40.991 C106.999,55.340 127.000,57.120 157.543,41.348 C186.498,26.386 213.243,27.189 240.565,41.731 C268.613,56.666 290.752,57.348 320.267,42.099 C349.239,27.137 368.058,27.224 396.650,42.451 L387.148,51.166 C364.161,38.919 352.848,38.867 329.552,50.900 ZM329.910,21.192 C295.175,39.135 265.725,38.999 231.421,20.737 C209.053,8.822 189.834,8.733 167.186,20.441 C132.770,38.211 104.881,38.082 70.902,19.997 C48.284,7.951 32.910,7.879 9.987,19.716 L0.702,10.915 C28.553,-3.472 51.813,-3.945 80.405,11.282 C107.357,25.632 127.358,27.412 157.901,11.640 C186.856,-3.322 213.601,-2.519 240.923,12.023 C268.971,26.957 291.110,27.640 320.625,12.391 C349.597,-2.572 368.416,-2.485 397.008,12.743 L387.506,21.457 C364.519,9.210 353.206,9.158 329.910,21.192 ZM79.689,70.700 C106.641,85.057 126.642,86.829 157.185,71.057 C186.140,56.095 212.885,56.898 240.207,71.440 C268.255,86.382 290.394,87.065 319.909,71.808 C348.881,56.845 367.701,56.932 396.292,72.160 L386.790,80.874 C363.803,68.635 352.490,68.583 329.194,80.609 C294.459,98.552 265.009,98.424 230.705,80.154 C208.336,68.247 189.118,68.158 166.470,79.858 C132.054,97.635 104.165,97.506 70.187,79.414 C47.568,67.367 32.194,67.296 9.272,79.133 L-0.014,70.332 C27.837,55.953 51.097,55.472 79.689,70.700 Z" />
+    </svg>
+    <svg class="shape shape-27" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="223px"
+        height="246px">
+        <path fill-rule="evenodd" stroke="rgb(199, 38, 104)" stroke-width="16px" stroke-linecap="butt" stroke-linejoin="miter"
+            fill="none" d="M107.500,8.000 C162.452,8.000 207.000,57.696 207.000,119.000 C207.000,180.303 162.452,230.000 107.500,230.000 C52.548,230.000 8.000,180.303 8.000,119.000 C8.000,57.696 52.548,8.000 107.500,8.000 Z" />
+    </svg>
+    <svg class="shape shape-28" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="210.5px"
+        height="216.5px">
+        <path fill-rule="evenodd" stroke="rgb(242, 18, 120)" stroke-width="13px" stroke-linecap="butt" stroke-linejoin="miter"
+            fill="none" d="M70.660,7.280 L197.507,105.264 L133.709,203.196 L6.862,105.213 L70.660,7.280 Z" />
+    </svg>
+    <svg class="shape shape-29" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1376px"
+        height="188px">
+        <path fill-rule="evenodd" stroke="rgb(255, 236, 137)" stroke-width="14px" stroke-linecap="butt" stroke-linejoin="miter"
+            fill="none" d="M7.000,7.000 L1362.000,7.000 L1362.000,174.000 L7.000,174.000 L7.000,7.000 Z" />
+    </svg>
+    <svg class="shape shape-30" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="123px"
+        height="164px">
+        <path fill-rule="evenodd" stroke="rgb(83, 208, 200)" stroke-width="12px" stroke-linecap="butt" stroke-linejoin="miter"
+            fill="none" d="M6.324,97.291 L28.268,6.605 L110.361,60.628 L88.417,151.314 L6.324,97.291 Z" />
+    </svg>
+    <svg class="shape shape-31" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="228px"
+        height="236px">
+        <path fill-rule="evenodd" stroke="rgb(199, 38, 104)" stroke-width="12px" stroke-linecap="butt" stroke-linejoin="miter"
+            fill="none" d="M6.330,77.336 L136.156,6.633 L215.672,152.643 L85.846,223.346 L6.330,77.336 Z" />
+    </svg>
+    <svg class="shape shape-32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1189px"
+        height="135px">
+        <path fill-rule="evenodd" stroke="rgb(255, 236, 137)" stroke-width="14px" stroke-linecap="butt" stroke-linejoin="miter"
+            fill="none" d="M7.000,7.000 L1175.000,7.000 L1175.000,121.000 L7.000,121.000 L7.000,7.000 Z" />
+    </svg>
+    <svg class="shape shape-33" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="329px"
+        height="7px">
+        <path fill-rule="evenodd" fill="rgb(83, 208, 200)" d="M-0.000,7.000 L-0.000,-0.000 L329.000,-0.000 L329.000,7.000 L-0.000,7.000 Z" />
+    </svg>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous" defer>
+    </script>
+    <script src="./plugins/swiper/swiper.js" defer></script>
+    <script src="./script/init.js" defer></script>
+    <script src="./script/script.js" defer></script>
+</body>
+
+</html>

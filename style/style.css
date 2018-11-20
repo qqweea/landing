@@ -31,13 +31,14 @@ h1
 	justify-content:space-between;
 	width:150px;
 	cursor:pointer;
+	height: 60px;
 	z-index:10000
 }
 
 .menu:hover path,.menu:hover p
 {
-	fill:#fff;
-	color:#fff
+	fill:#c72668;
+	color:#c72668
 }
 
 .menu path
@@ -97,7 +98,7 @@ h1
 {
 	-webkit-transform:rotateY(30deg);
 	transform:rotateY(30deg);
-	color:#fff
+	color:#c72668
 }
 
 .side-menu__next
@@ -131,8 +132,8 @@ h1
 
 .side-menu__next:hover path,.side-menu__next:hover p
 {
-	color:#fff;
-	fill:#fff
+	color:#c72668;
+	fill:#c72668
 }
 
 .wrapper {
@@ -1019,7 +1020,7 @@ h1
 {
 	top: 940px;
     left: 482px;
-    z-index: 20;
+    z-index: 0;
 }
 
 .shape-23
@@ -1098,3 +1099,39 @@ h1
     left: 660px;
     z-index: 0;
 }
+
+
+@media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {  
+	/* IE10+ specific styles go here */  
+	.wrapper {
+		margin: 0;
+	}
+	.inp {
+		top: -40px;
+	}
+ }
+
+ .anchor {
+	 position: relative;
+	 scroll-behavior: smooth;
+ }
+
+ #services {
+	top: -200px;
+ }
+
+ #trainers {
+	 top: -200px;
+ }
+
+ #style {
+	 top: -85px;
+ }
+
+ #schedule {
+	 top: -50px;
+ }
+
+ #contact {
+	 top: -20px;
+ }

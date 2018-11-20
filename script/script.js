@@ -158,3 +158,52 @@ form.addEventListener("submit", function (event) {
       event.preventDefault();
     }
   }, false);
+
+
+let anchor = {
+    anchors : document.getElementsByClassName('anchor'),
+    
+    currentView : function isElementInViewport (el) {
+
+        //special bonus for those using jQuery
+        if (typeof jQuery === "function" && el instanceof jQuery) {
+            el = el[0];
+        }
+    
+        var rect = el.getBoundingClientRect();
+    
+        return (
+            rect.top >= 0 &&
+            rect.left >= 0 &&
+            rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) && /*or $(window).height() */
+            rect.right <= (window.innerWidth || document.documentElement.clientWidth) /*or $(window).width() */
+        );
+    },
+    
+    visible : function visibleAnchor () {
+        for (let i = 0; i < this.anchors.length; i++){
+            if (this.currentView(this.anchors[i])){
+                return this.anchors[i].id;
+            }
+        }
+    },
+
+    update : function () {
+        if((this.visible() != location.hash.replace('#',"")) && this.visible() != undefined){
+            history.replaceState(null, null, "#"+this.visible());
+        }
+    },
+
+    goTo : function () {
+        for (let i = 0; i < this.anchors.length; i++){
+            if (this.anchors[i].id === location.hash.replace('#',"")){
+                location.hash = this.anchors[i+1].id;
+                break;
+            }
+        }
+        
+    }
+}
+
+document.addEventListener('scroll', function(){anchor.update();}, false);
+document.getElementsByClassName('side-menu__next')[0].addEventListener('click', function(){anchor.goTo();},false);

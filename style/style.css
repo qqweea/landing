@@ -154,7 +154,7 @@ h1
 	margin-top:-442px;
 	padding-top:257px;
 	position:relative;
-	z-index:100
+	z-index:10
 }
 
 .wrapper--trainers
@@ -171,7 +171,8 @@ h1
 	-webkit-clip-path:polygon(0 0,100% 11.5vw,100% calc(100% - 8vw),0 100%);
 	clip-path:polygon(0 0,100% 11.5vw,100% calc(100% - 8vw),0 100%);
 	background-color:#fcea88;
-	min-height:900px
+	min-height:900px;
+	margin-top: -375px;
 }
 
 .wrapper--videos
@@ -327,7 +328,6 @@ h1
 .trainers
 {
 	padding-top:223px;
-	position:relative
 }
 
 .trainers__header,.styles__header,.schedule__header
@@ -440,11 +440,16 @@ h1
 	letter-spacing:-.01em
 }
 
-.wrapper__styles
+.wrapper--styles
 {
-	margin-top:-115px;
-	position:relative;
-	z-index:10
+	background-color: white;
+    -webkit-clip-path: polygon(0 27%, 100% 0, 100% 100%, 0 78%);
+    clip-path: polygon(0 21vw, 100% 0, 100% 100%, 0 calc(100% - 11.5vw));
+    margin-top: -403px;
+    position: relative;
+    z-index: 10;
+    padding-top: 288px;
+    min-height: 1603px;
 }
 
 .styles__header
@@ -517,7 +522,7 @@ h1
 
 .schedule
 {
-	padding-top:196px;
+	padding-top: 350px;
 	padding-bottom:150px
 }
 
@@ -916,31 +921,36 @@ h1
 
 .shape-9
 {
+	z-index: 20;
 	top:760px;
 	right:60px
 }
 
 .shape-10
 {
+	z-index: 20;
 	top:875px;
 	right:535px
 }
 
 .shape-11
 {
+	z-index: 20;
 	top:885px;
 	left:45px
 }
 
 .shape-12
 {
-	top:1192px;
-	right:85px
+	z-index: 20;
+	top: 335px;
+    right: 85px;
 }
 
 .shape-13
 {
-	top:1625px;
+	z-index: 20;
+	top: 770px;
 	left:200px
 }
 
@@ -984,37 +994,37 @@ h1
 
 .shape-20
 {
-	top:2760px;
-	left:1500px;
-	z-index:-5
+	top: 15px;
+    left: 1500px;
+    z-index: 15;
 }
 
 .shape-21
 {
-	top:3165px;
-	left:1020px;
-	z-index:0
+	top: 430px;
+    left: 1020px;
+    z-index: 20;
 }
 
 .shape-22
 {
-	top:3670px;
-	left:482px;
-	z-index:0
+	top: 940px;
+    left: 482px;
+    z-index: 20;
 }
 
 .shape-23
 {
-	top:3850px;
-	left:1482px;
-	z-index:0
+	top: 1110px;
+    left: 1482px;
+    z-index: 20;
 }
 
 .shape-24
 {
-	top:3908px;
-	left:-160px;
-	z-index:0
+	top: 1170px;
+    left: -160px;
+	z-index:20
 }
 
 .shape-25
@@ -1034,7 +1044,7 @@ h1
 .shape-27
 {
 	top:4850px;
-	right:480px;
+	right:580px;
 	z-index:0
 }
 

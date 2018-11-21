@@ -381,6 +381,9 @@ h1
 	height:270px;
 	border-radius:0;
 	margin:34px 0!important;
+	opacity: 1;
+	background-size: cover;
+	background-repeat: no-repeat;
 	-webkit-transition:height 0.5s,width .5s;
 	-o-transition:height 0.5s,width .5s;
 	transition:height 0.5s,width .5s
@@ -401,19 +404,19 @@ h1
 
 .trainer-1
 {
-	content:url('../img/trainer-1.jpg');
+	background-image:url('../img/trainer-1.jpg');
 	z-index:100;
 	position:relative
 }
 
 .trainer-2
 {
-	content:url('../img/trainer-2.jpg')
+	background-image:url('../img/trainer-2.jpg')
 }
 
 .trainer-3
 {
-	content:url('../img/trainer-3.png')
+	background-image:url('../img/trainer-3.png')
 }
 
 .trainers__slider h2
@@ -1102,16 +1105,6 @@ h1
 }
 
 
-@media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {  
-	/* IE10+ specific styles go here */  
-	.wrapper {
-		margin: 0;
-	}
-	.inp {
-		top: -40px;
-	}
- }
-
  .anchor {
 	 position: relative;
  }
@@ -1134,4 +1127,18 @@ h1
 
  #contact {
 	 top: -20px;
+ }
+
+ @media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {  
+	/* IE10+ specific styles go here */  
+	.wrapper {
+		margin: 0;
+		padding: 20px;
+	}
+	.inp {
+		top: -40px;
+	}
+	.anchor {
+		top: 0 !important;
+	}
  }

@@ -515,7 +515,15 @@
     </script>
     <script src="./plugins/swiper/swiper.js" defer></script>
     <script src="./script/init.js" defer></script>
-    <script src="./script/script.js" defer></script>
+    
+    <script type="text/javascript">
+        if(!/MSIE \d|Trident.*rv:/.test(navigator.userAgent))
+            document.write('<script src="./script/script.js" defer><\/script>');
+    </script>
+    <script type="text/javascript">
+        if(/MSIE \d|Trident.*rv:/.test(navigator.userAgent))
+            document.write('<script src="./script/iescript.js"><\/script>');
+    </script>
 </body>
 
 </html>

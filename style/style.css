@@ -818,6 +818,16 @@ h1
 	letter-spacing:.26em
 }
 
+.contact a {
+	color: black;
+	text-decoration: none;
+	transition: all 0.5s;
+}
+
+.contact a:hover {
+	color: #ef1374;
+}
+
 .map
 {
 	margin-right:-80px;
